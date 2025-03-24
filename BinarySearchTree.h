@@ -1,5 +1,5 @@
 #ifndef BINARYSEARCHTREE_H
-#define PROJECT3STARTER_BINARYSEARCHTREE_H
+#define BINARYSEARCHTREE_H
 
 #include <memory>
 
@@ -184,4 +184,6 @@ public:
         size = 0;
         root = copyNode(rhs.root);
     }
-}
+};
+
+#endif //BINARYSEARCHTREE_H
